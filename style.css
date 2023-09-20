@@ -1,0 +1,215 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 90px;
+}
+
+body {
+    background: url('https://imgur.com/rUMzGBB.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://imgur.com/ymoLpDL.jpg'); /* Add the path to your header background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 1px;
+}
+
+.logo {
+    width: 140px;
+    margin-right: 10px;
+    width: 100px; /* Adjust the width to make the logo smaller */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin between nav items */
+}
+
+.nav-links li a {
+    color: #2de1e7;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #e90c31;
+}
+
+.nav-links li:last-child {
+    margin-right: 0; /* Remove margin for the last nav item */
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: rgb(47, 0, 216);
+}
+
+/* About section styles */
+.about {
+    background: url('https://imgur.com/9xPpCbY.jpg');
+    padding: 190px;
+    border-radius: 200px;
+    margin-bottom: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-col-2 h1,
+.about-col-2 p {
+    font-family: 'Playfair Display', serif; /* Use Playfair Display font */
+}
+
+.about-col-1 {
+    width: 40%;
+    float: left;
+}
+
+.about-col-1 img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #5b4abb;
+    height: 150px; 
+    object-fit: cover;
+}
+
+.about-col-2 {
+    width: 200px;
+    float: right;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.sub-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d37cee;
+    margin-bottom: 10px;
+}
+
+/* Projects section styles */
+.projects {
+    background: url('https://imgur.com/8VXL9dX.jpg');
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+    background-color: #ffbc58;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 16px;
+    color: #011216;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #bc7ef7;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #2980b9;
+}
+
+.header-text h1 {
+    font-family: 'Playfair Display', serif; /* Use Playfair Display font for h1 */
+}
+
+.header-text span {
+    font-family: 'Space Mono', monospace; /* Use Space Mono font for the span */
+}
+
+.project-title {
+    font-family: 'Playfair Display', serif; /* Use Playfair Display font for project titles */
+}
+
+/* Font for project descriptions */
+.project-description {
+    font-family: 'Space Mono', monospace; /* Use Space Mono font for project descriptions */
+}
+
+/* Font for project links */
+.project-link {
+    font-family: 'Space Mono', monospace; /* Use Space Mono font for project links */
+}
+
+.project-card .project-title {
+    height: 60px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide any overflow beyond the specified height */
+}
+
